@@ -26,27 +26,20 @@ This is a simple full-stack task management system built using Node.js, Express.
    git clone https://github.com/nicholas36912/Task-Management-FP.git
    cd task-management-system
 
+Usage Start the server:
 
-Usage
-Start the server:
-
-bash
-Copy code
-npm start
-Your server will run on http://localhost:3000.
+bash Copy code npm start Your server will run on http://localhost:3000.
 
 Navigate to the client directory and start the React app:
 
-bash
-Copy code
-npm start
-The React app will run on http://localhost:3000.
+bash Copy code npm start The React app will run on http://localhost:3000.
 
-API Endpoints
-GET /tasks: Get a list of all tasks.
-POST /tasks: Create a new task.
-Client-Side
+API Endpoints 
+GET /tasks: Get a list of all tasks. 
+POST /tasks: Create a new task. 
+POST /Registration: Identity Management
+
+Client-Side 
 The client-side is a simple React.js application with two main components: TaskList and TaskForm. You can view the list of tasks and add new tasks through the user interface.
 
-Version Control (Git)
-This project uses Git for version control.
+Version Control (Git) This project uses Git for version control.
